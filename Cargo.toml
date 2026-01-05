@@ -1,0 +1,9 @@
+[package]
+name = "eywa-user-id"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+serde = { workspace = true }
+utoipa = { workspace = true }
+uuid = { version = "1.11.0", features = ["serde", "v4"] }
